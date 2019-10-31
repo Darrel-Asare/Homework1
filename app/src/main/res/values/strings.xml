@@ -9,5 +9,6 @@
     <string name="homework_1">Homework 1</string>
     <string name="Return">Return</string>
     <string name="your_message_is">Your Message is:</string>
-    <string name="textview">TextView</string>
+    <string name="for_student_id">for student id</string>
+    <string name="for_message">for message</string>
 </resources>

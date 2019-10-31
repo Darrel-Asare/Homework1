@@ -17,8 +17,11 @@ public class ThirdActivity extends AppCompatActivity {
         setContentView(R.layout.activity_third);
 
         Intent intent = getIntent();
-        String message = intent.getStringExtra("EXTRA_MESSAGE");
+        String message0 = intent.getStringExtra("EXTRA_MESSAGE");
+        String message = intent.getStringExtra("EXTRA_MESSAGE2");
 
+        TextView textView0 = findViewById(R.id.textView1);
+        textView0.setText(message0);
         TextView textView = findViewById(R.id.textView3);
         textView.setText(message);
 
